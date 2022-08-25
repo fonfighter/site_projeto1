@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color:rgb(43, 43, 43);
+    color:beige;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header nav li {
+    display:inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color:beige;
+    text-decoration: none;
+}
+
+.menulogo img {
+    height: 215px;
+}
+
+.menu img {
+    height: 24px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.container,
+section h2
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 30px;
+}
+
+section h3 {
+    font-size: 24px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+table p {
+    font-size:12px;
+}
+
+table a {
+    color:white;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 260px;
+    width: 100%;
+}
+
+.mainimg, .articles article img {
+    border-style: double;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.maincontent {
+    margin-left:8px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+footer {
+    background-color: rgb(43, 43, 43);
+    color: beige;
+    padding: 16px 0;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+}
+
+body,
+input,
+textarea {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.readmore {
+    background-color:rgb(43, 43, 43);
+    color:beige;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    border-style:dotted;
+}
+
+.creation-date {
+    color:darkgrey;
+    font-size: 14px;
+}
+
+#main header {
+    background-color: rgb(243, 56, 56);
+}
+
+#news header {
+    background-color: rgb(211, 211, 211); 
+}
+
+#main, #fanposts {
+    background-color: rgb(243, 56, 56);
+}
+
+#news, #contact {
+    background-color: rgb(211, 211, 211);
+}
